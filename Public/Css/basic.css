@@ -1,0 +1,97 @@
+
+*{margin:0;
+padding:0;
+background-color:#eff3f6;} 
+.menu{
+	font-size: 14px;
+	position: relative;
+	z-index: 100;
+	width: 1007px;
+	margin-right: auto;
+	margin-left: auto;
+} 
+.menu li {float:left;position:relative;list-style:none;} 
+.menu ul ul {visibility:hidden;position:absolute;left:0px;top:32px;} 
+.menu table {position:absolute;top:0;left:0;} 
+.menu ul li:hover ul, 
+.menu ul a:hover ul{visibility:visible;} 
+.menu a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	height: 32px;
+	line-height: 32px;
+	width: 167px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+   
+	font-family: "宋体";
+	font-size: 14px;
+	margin-left: 1px;
+} 
+.menu a:hover{
+	color: #3399FF;
+	
+} 
+
+.menu ul ul li {clear:both;text-align:left;} 
+.menu ul ul li a{display:block;width:167px;height:32px;margin:0;border:0;border-bottom:1px solid #390;background-color: #333333;} 
+.menu ul ul li a:hover{
+    background-color: #333333;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #3399FF;
+	background-color: #333333;
+
+}
+
+.login{
+	position: relative;
+	margin-top:10px;
+	margin-left:220px;
+	float:left;
+}
+
+
+.ziyuan{
+	border:1px dotted #333333;
+	width:200px;
+	height:200px;
+	font-size:16px;
+	color:#333333;
+	font-family:"宋体";
+	text-align: center;
+	margin-left:230px;	
+	margin-top:-125px;
+}
+
+.footer {
+    font-family: "宋体";
+	font-size: 16px;
+	text-decoration: none;
+	height: 85px;
+	width: 1007px;
+	margin-top:100px;
+	text-align:center;
+	margin-left:200px;
+
+}
+.intro1{
+	margin-top:-40px;
+	margin-left:230px;
+	border: 1px double #333;
+}
+
+.intro2{
+		margin-top:30px;
+	    margin-left:230px;
+	border: 1px double #333;
+}
+
+.sql_jieshao{
+	margin-top:-550px;
+	width:230px;
+}
+
+

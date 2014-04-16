@@ -1,0 +1,28 @@
+<include file="Index:header" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<head>
+<title>留言</title>
+
+
+<style type="text/css">
+	.message{
+	margin-left:220px;
+	}
+</style>
+<div class="message">
+
+    <foreach name="list" item="vo">
+                      			留言题目：{$vo.title}<br/>
+                      			留言内容：{$vo.content}<br/>
+                      			留言时间：{$vo.addtime}<br/>
+                      			留言人：{$vo.username}<br/>
+                      			留言回复：{$vo.reply}<br/>
+                      			
+                      			<hr/>
+                      		
+                       
+                      </foreach>
+                      	{$page}
+                      	
+                      	
+                      	</div>

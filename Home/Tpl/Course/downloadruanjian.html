@@ -1,0 +1,61 @@
+<include file="Index:Header" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<head>
+<title>软件下载</title>
+<style type="text/css">
+.list{
+	border:1px solid #333333;
+	width:1007px;
+	margin-left:auto; 
+	margin-right:auto;
+	text-align:left;
+
+}
+.list th{
+	background:#effcff;
+	height:40px;
+}
+
+</style> 
+</head>
+<body>
+
+<!-- <table class="list">
+<tr style=" bgcolor: #EFFCFF ">
+  <th>姓名</th>
+  <td>Bill Gates</td>
+</tr>
+<tr>
+  <th>电话</th>
+  <td>555 77 854</td>
+</tr>
+<tr>
+  <th>电话</th>
+  <td>555 77 855</td>
+</tr>
+</table>  -->
+
+<table  class='list'>
+<tr>
+<th>软件ID</th>
+<th>软件名称</th>
+<th>软件大小</th>
+<th>下载次数</th>
+<th>下载</th>
+</tr>
+
+<volist name='data' id='vo'>
+	<tr>
+	<td>{$vo.id}</td>
+	<td>{$vo.name}</td>
+	<td>{$vo.size}M</td>
+	<td>{$vo.count}</td>
+	<td><a href="/bjl/index.php/Course/download/id/{$vo.id}">下载</a></td>
+
+	</tr>
+</volist>
+</table>
+
+
+
+</body>
